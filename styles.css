@@ -1,0 +1,40 @@
+/* Estilo para el encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para los contenedores de los camiones */
+.Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para cada camión */
+.camion {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+}
+
+/* Estilo para la imagen de cada camión */
+.camion img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilo para los párrafos de cada camión */
+.camion p {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* Estilo para el título del camión */
+.camion strong {
+    font-size: 18px;
+    color: #333;
+}
